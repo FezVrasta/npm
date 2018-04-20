@@ -1,4 +1,13 @@
-# @semantic-release/npm
+# semantic-release-monorepo-npm
+
+This package is a direct fork of @semantic-release/npm, changed to work with custom registries
+and the `semantic-release-monorepo` plugin.
+
+The only difference with the original package is that it allows you to define a custom `registry`
+configuration that will be consumed during the publish of all the packges of your monorepo.
+
+
+## Original README:
 
 Set of [semantic-release](https://github.com/semantic-release/semantic-release) plugins for publishing to a [npm](https://www.npmjs.com/) registry.
 
